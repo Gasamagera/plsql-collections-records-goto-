@@ -1,0 +1,10 @@
+-- 01_seed.sql
+INSERT INTO employees_demo (first_name, last_name, department_id, base_salary, city, status) VALUES
+('Alice','Mugisha',10,5000,'Kigali','ACTIVE');
+INSERT INTO employees_demo (first_name, last_name, department_id, base_salary, city, status) VALUES
+('John','Doe',10,6000,'Musanze','ACTIVE');
+INSERT INTO employees_demo (first_name, last_name, department_id, base_salary, city, status) VALUES
+('Grace','Uwase',20,7000,'Huye','TERMINATED');
+INSERT INTO employees_demo (first_name, last_name, department_id, base_salary, city, status) VALUES
+('Peter','Nkurunziza',20,8000,'Kigali','ACTIVE');
+COMMIT;
